@@ -24,6 +24,16 @@ DATA="$BASEDIR/data"
 OUTPUT="$BASEDIR/output"
 PANDOC_OTPS="${PANDOC_OPTS:=--template=default.html5}"
 
+echo '___.   .__                       __  .__              '
+echo '\_ |__ |  |   ____   _________ _/  |_|__| ____  ____  '
+echo ' | __ \|  |  /  _ \ / ___\__  \\   __\  |/ ___\/  _ \ '
+echo ' | \_\ \  |_(  <_> ) /_/  > __ \|  | |  \  \__(  <_> )'
+echo ' |___  /____/\____/\___  (____  /__| |__|\___  >____/ '
+echo '     \/           /_____/     \/             \/       '
+echo '                                                      '
+echo '                            gerador de sitio estático!'
+echo '                                                      '
+
 echo "Limpando a versao anterior do blog..."
 rm -rf $OUTPUT || exit 1
 
